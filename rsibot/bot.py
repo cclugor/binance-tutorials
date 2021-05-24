@@ -1,3 +1,7 @@
+import sys
+sys.path.append('../../')
+import config
+
 import websocket, json, pprint, talib, numpy
 import config
 from binance.client import Client
